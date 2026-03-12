@@ -1,0 +1,29 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import type { CvData } from "../i18n/content";
+
+interface Props {
+  skills: CvData["skills"];
+}
+
+const { skills } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="max-w-4xl mx-auto px-6 py-12">
+  <SectionHeading title={t("section.skills")} />
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    {skills.map((group) => (
+      <div>
+        <h3 class="font-heading text-base tracking-wide text-ink mb-3">{group.category}</h3>
+        <ul class="space-y-1">
+          {group.items.map((item) => (
+            <li class="text-sm text-ink-light">{item}</li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,47 @@
+publications:
+  - title: "Efectos distributivos del T-MEC en los mercados laborales mexicanos"
+    authors: "Moreno, A. y García, M."
+    journal: "El Trimestre Económico"
+    year: 2025
+    type: article
+    status: forthcoming
+    abstract: >
+      Analizamos los efectos heterogéneos del T-MEC sobre salarios y empleo
+      en diferentes regiones y sectores de México, utilizando un enfoque
+      de diferencias en diferencias con datos a nivel municipal.
+    url: "#"
+
+  - title: "Inflación regional y cadenas de suministro: evidencia de México"
+    authors: "Moreno, A., López, R. y Martínez, J."
+    journal: "Investigación Económica"
+    year: 2024
+    type: article
+    status: published
+    abstract: >
+      Estimamos la transmisión de choques en cadenas de suministro a la
+      inflación regional, encontrando efectos asimétricos entre regiones
+      del norte y sur del país.
+    url: "#"
+
+  - title: "Transferencias condicionadas y capital humano: una revisión para América Latina"
+    authors: "Moreno, A."
+    year: 2024
+    type: working-paper
+    status: working-paper
+    abstract: >
+      Documento de trabajo que sintetiza la evidencia empírica reciente
+      sobre el efecto de programas de transferencias condicionadas en
+      indicadores de educación y salud en la región.
+    url: "#"
+
+  - title: "Desigualdad y crecimiento económico en México, 2000–2020"
+    authors: "Moreno, A. y Ruiz, P."
+    journal: "Economía Mexicana"
+    year: 2023
+    type: article
+    status: published
+    abstract: >
+      Exploramos la relación entre desigualdad de ingresos y crecimiento
+      del PIB per cápita a nivel estatal, controlando por factores
+      institucionales y geográficos.
+    url: "#"

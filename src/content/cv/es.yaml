@@ -1,0 +1,58 @@
+name: Alfonso "Poncho" Moreno
+title: Economista
+email: poncho@ejemplo.com
+location: Ciudad de México, México
+bio: >
+  Economista mexicano enfocado en política pública, desarrollo económico
+  y análisis cuantitativo. Mi investigación examina la intersección entre
+  desigualdad, comercio internacional y mercados laborales en América Latina.
+  Comprometido con la investigación rigurosa que informa políticas públicas
+  basadas en evidencia.
+
+education:
+  - degree: Maestría en Economía
+    institution: El Colegio de México (COLMEX)
+    location: Ciudad de México, México
+    period: "2023 – 2025"
+    description: "Concentración en economía aplicada y métodos cuantitativos."
+  - degree: Licenciatura en Economía
+    institution: Instituto Tecnológico Autónomo de México (ITAM)
+    location: Ciudad de México, México
+    period: "2018 – 2022"
+    description: "Graduado con mención honorífica. Tesis sobre efectos distributivos del T-MEC."
+
+experience:
+  - title: Asistente de Investigación
+    organization: Banco de México
+    location: Ciudad de México, México
+    period: "2024 – presente"
+    highlights:
+      - Análisis econométrico de series de tiempo sobre inflación regional
+      - Desarrollo de modelos de pronóstico para indicadores macroeconómicos
+  - title: Analista de Política Económica
+    organization: Secretaría de Hacienda y Crédito Público
+    location: Ciudad de México, México
+    period: "2022 – 2023"
+    highlights:
+      - Evaluación de impacto de programas de transferencias condicionadas
+      - Elaboración de notas técnicas sobre política fiscal
+
+skills:
+  - category: Métodos
+    items:
+      - Econometría aplicada
+      - Evaluación de impacto
+      - Análisis de series de tiempo
+      - Modelos de equilibrio general
+  - category: Software
+    items:
+      - Stata
+      - R
+      - Python
+      - MATLAB
+      - LaTeX
+  - category: Idiomas
+    items:
+      - Español (nativo)
+      - Inglés (avanzado)
+      - Francés (intermedio)

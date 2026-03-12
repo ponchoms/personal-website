@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bone: #F5F0EB;
+  --color-bone-light: #FAF8F5;
+  --color-accent: #C45B28;
+  --color-accent-hover: #A84D22;
+  --color-taupe: #C4B5A5;
+  --color-taupe-light: #D9CFC4;
+  --color-ink: #2C2C2C;
+  --color-ink-light: #5A5A5A;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Source Sans 3", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-bone);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

@@ -1,0 +1,37 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import type { CvData } from "../i18n/content";
+
+interface Props {
+  experience: CvData["experience"];
+}
+
+const { experience } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="max-w-4xl mx-auto px-6 py-12">
+  <SectionHeading title={t("section.experience")} />
+  <div class="space-y-8">
+    {experience.map((item) => (
+      <div class="border-l-2 border-taupe-light pl-6">
+        <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+          <h3 class="font-heading text-lg text-ink">{item.title}</h3>
+          <span class="text-sm text-ink-light whitespace-nowrap">{item.period}</span>
+        </div>
+        <p class="text-sm text-ink-light mt-1">{item.organization} — {item.location}</p>
+        {item.highlights && item.highlights.length > 0 && (
+          <ul class="mt-3 space-y-1">
+            {item.highlights.map((h) => (
+              <li class="text-sm text-ink-light pl-4 relative before:content-['–'] before:absolute before:left-0 before:text-taupe">
+                {h}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+  </div>
+</section>

@@ -1,0 +1,57 @@
+name: Alfonso "Poncho" Moreno
+title: Economist
+email: poncho@example.com
+location: Mexico City, Mexico
+bio: >
+  Mexican economist focused on public policy, economic development,
+  and quantitative analysis. My research examines the intersection of
+  inequality, international trade, and labor markets in Latin America.
+  Committed to rigorous research that informs evidence-based public policy.
+
+education:
+  - degree: Master's in Economics
+    institution: El Colegio de México (COLMEX)
+    location: Mexico City, Mexico
+    period: "2023 – 2025"
+    description: "Concentration in applied economics and quantitative methods."
+  - degree: Bachelor's in Economics
+    institution: Instituto Tecnológico Autónomo de México (ITAM)
+    location: Mexico City, Mexico
+    period: "2018 – 2022"
+    description: "Graduated with honors. Thesis on distributional effects of USMCA."
+
+experience:
+  - title: Research Assistant
+    organization: Bank of Mexico
+    location: Mexico City, Mexico
+    period: "2024 – present"
+    highlights:
+      - Econometric time-series analysis of regional inflation
+      - Forecasting model development for macroeconomic indicators
+  - title: Economic Policy Analyst
+    organization: Ministry of Finance
+    location: Mexico City, Mexico
+    period: "2022 – 2023"
+    highlights:
+      - Impact evaluation of conditional cash transfer programs
+      - Technical briefs on fiscal policy
+
+skills:
+  - category: Methods
+    items:
+      - Applied econometrics
+      - Impact evaluation
+      - Time-series analysis
+      - General equilibrium models
+  - category: Software
+    items:
+      - Stata
+      - R
+      - Python
+      - MATLAB
+      - LaTeX
+  - category: Languages
+    items:
+      - Spanish (native)
+      - English (advanced)
+      - French (intermediate)

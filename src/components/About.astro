@@ -1,0 +1,17 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+interface Props {
+  bio: string;
+}
+
+const { bio } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section class="max-w-4xl mx-auto px-6 py-12">
+  <SectionHeading title={t("section.about")} />
+  <p class="text-ink-light leading-relaxed max-w-2xl">{bio}</p>
+</section>

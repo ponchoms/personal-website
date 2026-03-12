@@ -1,0 +1,56 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import type { Publication } from "../i18n/content";
+
+interface Props {
+  pub: Publication;
+}
+
+const { pub } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const statusLabel = t(`pub.${pub.status}` as any);
+const statusColor =
+  pub.status === "forthcoming"
+    ? "text-accent"
+    : pub.status === "working-paper"
+      ? "text-ink-light"
+      : "text-ink-light";
+---
+
+<article class="group py-6">
+  <div class="flex flex-col gap-2">
+    <!-- Title with hip hover effect -->
+    <h3 class="font-heading text-lg text-ink leading-snug transition-all duration-300 group-hover:translate-x-2">
+      {pub.url && pub.url !== "#" ? (
+        <a
+          href={pub.url}
+          class="decoration-accent underline-offset-4 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {pub.title}
+        </a>
+      ) : (
+        <span>{pub.title}</span>
+      )}
+      <span class="inline-block w-0 group-hover:w-8 h-0.5 bg-accent ml-2 transition-all duration-300 align-middle"></span>
+    </h3>
+
+    <!-- Authors -->
+    <p class="text-sm text-ink-light">{pub.authors}</p>
+
+    <!-- Journal, year, status -->
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+      {pub.journal && <span class="italic text-ink-light">{pub.journal}</span>}
+      <span class="text-ink-light">{pub.year}</span>
+      <span class={`text-xs uppercase tracking-wider ${statusColor}`}>{statusLabel}</span>
+    </div>
+
+    <!-- Abstract -->
+    {pub.abstract && (
+      <p class="text-sm text-ink-light leading-relaxed mt-2 max-w-2xl">{pub.abstract}</p>
+    )}
+  </div>
+</article>

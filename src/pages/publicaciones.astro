@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PublicationList from "../components/PublicationList.astro";
+import { getPublicationsData, getCvData } from "../i18n/content";
+
+const { publications } = getPublicationsData("es");
+const cv = getCvData("es");
+---
+
+<BaseLayout title={`Publicaciones — ${cv.name}`} description="Publicaciones e investigación">
+  <PublicationList publications={publications} />
+</BaseLayout>

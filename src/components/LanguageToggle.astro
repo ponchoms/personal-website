@@ -1,0 +1,16 @@
+---
+import { getLangFromUrl, getAlternateUrl } from "../i18n/utils";
+import { languages } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+const alternateLang = lang === "es" ? "en" : "es";
+const alternateUrl = getAlternateUrl(Astro.url, alternateLang);
+---
+
+<a
+  href={alternateUrl}
+  class="text-sm tracking-wide text-ink-light hover:text-accent transition-colors border border-taupe-light px-3 py-1 rounded"
+  aria-label={`Switch to ${languages[alternateLang]}`}
+>
+  {languages[alternateLang]}
+</a>

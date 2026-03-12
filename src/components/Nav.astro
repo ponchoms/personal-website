@@ -1,0 +1,46 @@
+---
+import LanguageToggle from "./LanguageToggle.astro";
+import { getLangFromUrl, useTranslations, getNavLinks } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const links = getNavLinks(lang);
+
+// Determine active page
+const pathname = Astro.url.pathname;
+const isHome = pathname === "/" || pathname === "/en/" || pathname === "/en";
+const isPublications = pathname.includes("publicaciones") || pathname.includes("publications");
+---
+
+<nav class="border-b border-taupe-light">
+  <div class="max-w-4xl mx-auto px-6 py-5 flex items-center justify-between">
+    <a
+      href={links.home}
+      class="font-heading text-lg tracking-widest uppercase text-ink hover:text-accent transition-colors"
+    >
+      A. Moreno
+    </a>
+
+    <div class="flex items-center gap-8">
+      <a
+        href={links.home}
+        class:list={[
+          "text-sm tracking-wide uppercase transition-colors",
+          isHome ? "text-accent" : "text-ink-light hover:text-accent",
+        ]}
+      >
+        {t("nav.home")}
+      </a>
+      <a
+        href={links.publications}
+        class:list={[
+          "text-sm tracking-wide uppercase transition-colors",
+          isPublications ? "text-accent" : "text-ink-light hover:text-accent",
+        ]}
+      >
+        {t("nav.publications")}
+      </a>
+      <LanguageToggle />
+    </div>
+  </div>
+</nav>

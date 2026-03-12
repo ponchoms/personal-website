@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Hero from "../../components/Hero.astro";
+import About from "../../components/About.astro";
+import Education from "../../components/Education.astro";
+import Experience from "../../components/Experience.astro";
+import Skills from "../../components/Skills.astro";
+import { getCvData } from "../../i18n/content";
+
+const cv = getCvData("en");
+---
+
+<BaseLayout title={`${cv.name} — ${cv.title}`} description={cv.bio}>
+  <Hero cv={cv} />
+  <div class="border-t border-taupe-light"></div>
+  <About bio={cv.bio} />
+  <div class="border-t border-taupe-light max-w-4xl mx-auto px-6"></div>
+  <Education education={cv.education} />
+  <div class="border-t border-taupe-light max-w-4xl mx-auto px-6"></div>
+  <Experience experience={cv.experience} />
+  <div class="border-t border-taupe-light max-w-4xl mx-auto px-6"></div>
+  <Skills skills={cv.skills} />
+</BaseLayout>

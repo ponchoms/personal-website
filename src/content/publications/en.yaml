@@ -1,0 +1,47 @@
+publications:
+  - title: "Distributional Effects of USMCA on Mexican Labor Markets"
+    authors: "Moreno, A. & García, M."
+    journal: "El Trimestre Económico"
+    year: 2025
+    type: article
+    status: forthcoming
+    abstract: >
+      We analyze the heterogeneous effects of USMCA on wages and employment
+      across different regions and sectors in Mexico, using a
+      difference-in-differences approach with municipal-level data.
+    url: "#"
+
+  - title: "Regional Inflation and Supply Chains: Evidence from Mexico"
+    authors: "Moreno, A., López, R. & Martínez, J."
+    journal: "Investigación Económica"
+    year: 2024
+    type: article
+    status: published
+    abstract: >
+      We estimate the transmission of supply chain shocks to regional
+      inflation, finding asymmetric effects between northern and
+      southern regions of the country.
+    url: "#"
+
+  - title: "Conditional Cash Transfers and Human Capital: A Review for Latin America"
+    authors: "Moreno, A."
+    year: 2024
+    type: working-paper
+    status: working-paper
+    abstract: >
+      Working paper synthesizing recent empirical evidence on the effect
+      of conditional cash transfer programs on education and health
+      indicators in the region.
+    url: "#"
+
+  - title: "Inequality and Economic Growth in Mexico, 2000–2020"
+    authors: "Moreno, A. & Ruiz, P."
+    journal: "Economía Mexicana"
+    year: 2023
+    type: article
+    status: published
+    abstract: >
+      We explore the relationship between income inequality and per capita
+      GDP growth at the state level, controlling for institutional
+      and geographic factors.
+    url: "#"
