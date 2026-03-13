@@ -1,25 +1,29 @@
 name: Alfonso "Poncho" Moreno
 title: Economist
-email: poncho@example.com
-location: Mexico City, Mexico
+email: alfonso.moreno@utexas.edu
+location: Austin, Texas
 bio: >
   Mexican economist focused on public policy, economic development,
   and quantitative analysis. My research examines the intersection of
-  inequality, international trade, and labor markets in Latin America.
+  macroeconomics, international trade, fiscal and monetary policy in Latin America from a system dynamics perspective.
   Committed to rigorous research that informs evidence-based public policy.
 
 education:
   - degree: Master's in Economics
-    institution: El Colegio de México (COLMEX)
-    location: Mexico City, Mexico
-    period: "2023 – 2025"
-    description: "Concentration in applied economics and quantitative methods."
-  - degree: Bachelor's in Economics
-    institution: Instituto Tecnológico Autónomo de México (ITAM)
-    location: Mexico City, Mexico
-    period: "2018 – 2022"
-    description: "Graduated with honors. Thesis on distributional effects of USMCA."
-
+    institution: Torrens University Australia
+    location: Adalaide, Australia
+    period: "2024 – 2026"
+    description: "Monetary Sovereignty."
+  - degree: Master's in Science in Global Innovation 
+    institution: Strathclyde University
+    location: Scotland, United Kingdom
+    period: "2012 – 2014"
+    description: "Graduated with honors."
+  - degree: Bachelor's in Mechanical Engineering
+    institution: University of Texas at Austin
+    location: Austin, Texas
+    period: "2004 – 2008"
+   
 experience:
   - title: Research Assistant
     organization: Bank of Mexico
