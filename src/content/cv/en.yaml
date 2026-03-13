@@ -42,21 +42,21 @@ experience:
       - Technical briefs on fiscal policy
 
 skills:
-  - category: Methods
+  - category: Interests
     items:
-      - Applied econometrics
-      - Impact evaluation
-      - Time-series analysis
-      - General equilibrium models
+      - Macroeconomics
+      - System Dynamics
+      - Modern Money Theory
   - category: Software
     items:
       - Stata
       - R
       - Python
-      - MATLAB
+      - SQL
+      - Ravel
       - LaTeX
   - category: Languages
     items:
-      - Spanish (native)
-      - English (advanced)
-      - French (intermediate)
+      - Spanish
+      - English
+      - Portuguese (intermediate)
