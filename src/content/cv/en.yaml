@@ -32,14 +32,7 @@ experience:
     highlights:
       - Econometric time-series analysis of regional inflation
       - Forecasting model development for macroeconomic indicators
-  - title: Economic Policy Analyst
-    organization: Ministry of Finance
-    location: Mexico City, Mexico
-    period: "2022 – 2023"
-    highlights:
-      - Analysis of Argentinian Currency Crisis of 2001
-      - Impact evaluation of conditional cash transfer programs
-      - Technical briefs on fiscal policy
+     
   - title: Economic Policy Advisor
     organization: Various Political Candidates
     location: Austin, Texas
@@ -47,9 +40,10 @@ experience:
     highlights:
       - Econometric time-series analysis of regional inflation
       - Forecasting model development for macroeconomic indicators
-  - title: Economic Policy Analyst
-    organization: Ministry of Finance
-    location: Mexico City, Mexico
+      
+  - title: Various Engineering Roles
+    organization: Schlumberger, 
+    location: Austin, Houston, Monterrey, Mexico
     period: "2022 – 2023"
     highlights:
       - Analysis of Argentinian Currency Crisis of 2001
