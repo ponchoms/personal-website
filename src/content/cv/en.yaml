@@ -9,26 +9,26 @@ bio: >
   Committed to rigorous research that informs evidence-based public policy.
 
 education:
-  - degree: Master's in Economics
+  - degree: Master of Economics of Sustainability
     institution: Torrens University Australia
     location: Adalaide, Australia
     period: "2024 – 2026"
     description: "Monetary Sovereignty."
-  - degree: Master's in Science in Global Innovation 
+  - degree: Master of Science in Global Innovation 
     institution: Strathclyde University
     location: Scotland, United Kingdom
     period: "2012 – 2014"
     description: "Graduated with honors."
-  - degree: Bachelor's in Mechanical Engineering
+  - degree: Bachelor of Science in Mechanical Engineering
     institution: University of Texas at Austin
     location: Austin, Texas
     period: "2004 – 2008"
    
 experience:
-  - title: Research Assistant
-    organization: Bank of Mexico
-    location: Mexico City, Mexico
-    period: "2024 – present"
+  - title: Director of Digital Strategy
+    organization: MooreCo Inc.
+    location: Austin, Texas
+    period: "2020 – present"
     highlights:
       - Econometric time-series analysis of regional inflation
       - Forecasting model development for macroeconomic indicators
@@ -40,7 +40,21 @@ experience:
       - Analysis of Argentinian Currency Crisis of 2001
       - Impact evaluation of conditional cash transfer programs
       - Technical briefs on fiscal policy
-
+  - title: Economic Policy Advisor
+    organization: Various Political Candidates
+    location: Austin, Texas
+    period: "2025 – present"
+    highlights:
+      - Econometric time-series analysis of regional inflation
+      - Forecasting model development for macroeconomic indicators
+  - title: Economic Policy Analyst
+    organization: Ministry of Finance
+    location: Mexico City, Mexico
+    period: "2022 – 2023"
+    highlights:
+      - Analysis of Argentinian Currency Crisis of 2001
+      - Impact evaluation of conditional cash transfer programs
+      - Technical briefs on fiscal policy
 skills:
   - category: Interests
     items:
